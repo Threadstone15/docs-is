@@ -232,7 +232,7 @@ Follow the steps below to verify mDocs credentials:
 
 1. Use a different device to download the MATTR GO Hold example app.
 
-2. Use the GO Hold example app to claim an mDoc credential.
+2. Use the GO Hold example app to claim an mDoc credential by following the instructions in Step 2.2.
 
 3. In the GO Hold example app, select the **Share** button and then select **Share Credential**.
 
