@@ -235,12 +235,16 @@ Download the MATTR GO Hold mobile wallet application to test credential issuance
 
 Use MATTR GO Verify to perform in-person verification of digital credentials. This ready-to-use mobile application enables organizations to verify credentials securely and confidently.
 
+MATTR GO Verify offers a white-label solution that you can fully customize with your branding, colors, and typography for distribution to verifiers and end users.
+
+The MATTR GO Verify example app demonstrates the capabilities of a white-labeled verification application. Use it alongside the MATTR GO Hold example app to explore and test in-person credential presentation and verification workflows.
+
 #### Download the MATTR GO Verify app
 
 Download the MATTR GO Verify example app to your mobile device from:
 
-- **iOS devices**: [The App Store](https://apps.apple.com/us/app/mattr-go-verify/id6670461328)
-- **Android devices**: [Google Play](https://play.google.com/store/apps/details?id=global.mattr.mobile.verifier)
+- **iOS devices**: [The App Store](https://apps.apple.com/us/app/mattr-go-verify/id1550227772)
+- **Android devices**: [Google Play](https://play.google.com/store/apps/details?id=global.mattr.verify&hl=en)
 
 #### Verify mDocs
 
@@ -248,7 +252,7 @@ Follow the steps below to verify mDocs credentials:
 
 1. Use a different device to download the MATTR GO Hold example app.
 
-2. Use the GO Hold example app to claim an mDoc credential. (Scan the QR code generated from step 6 of the previous section.)
+2. Use the GO Hold example app to claim an mDoc credential by following the instructions in Step 2.2.
 
 3. In the GO Hold example app, select the **Share** button and then select **Share Credential**.
 
@@ -266,6 +270,13 @@ Follow the steps below to verify mDocs credentials:
         You may need to allow the GO Verify app to access your camera.
 
 8. Follow the on-screen instructions to complete the proximity verification workflow.
+
+#### Explore further
+
+Sign up for a MATTR VII tenant to issue different credentials into your GO Hold example app and verify them using the GO Verify example app:
+
+- [OID4VCI Authorization Code tutorial](https://learn.mattr.global/tutorials/issue/openid/authorization-code)
+- [OID4VCI Pre-authorized Code tutorial](https://learn.mattr.global/tutorials/issue/openid/pre-authorized-code)
 
 You now know how to issue verifiable credentials for wallet holders and verify them with MATTR using Asgardeo. Continue to harness the full capabilities that Asgardeo provides by customizing the sign-in flow, enhancing application security, and exploring additional features.
 
